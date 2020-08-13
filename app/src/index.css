@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background: rgb(30,30,30);
+}
+#root{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  color: white;
+}
+section div div{
+  width: 900px;
+  padding: 3%;
+  margin: 2%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 5px 5px 10px -5px, -5px -5px 10px -5px rgb(60,60,60);
+}
+section div div h2{
+  font-size: 2rem;
+  width: 30%;
+  color: grey;
+}
+section div div h3{
+  font-size: 2rem;
+  width: 30%;
+  color: grey;
+}
+h4{
+  color: grey;
+  font-size: 2rem;
+}
+p{
+  color: grey;
+  font-size: 2rem;
+}

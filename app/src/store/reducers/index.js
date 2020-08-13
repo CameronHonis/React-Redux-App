@@ -1,0 +1,1 @@
+export { cryptoDataReducer } from './cryptoDataReducer.js'
